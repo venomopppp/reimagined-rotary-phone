@@ -55,7 +55,7 @@ jobs:
       run: |
         brew update
         # Install GCC if needed (macOS
- has clang by default)
+ 
         # brew install gcc
         sleep 300
     - name: Compile and run the program
